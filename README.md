@@ -13,5 +13,6 @@ Here we describe the content of each folder:
     - demo_gauss_resampling.m: runs rABC-MCMC
     - demo_gauss_stratified_3strata.m: runs rsABC-MCMC
     - demo_gauss_stratified_3strata_averagedlikelihoods.m: runs xrsABC-MCMC
+    - demo_gauss_two_independent_sample: runs pmABC-MCMC with M=2
     - subfolder "loglikelihood estimation": produces results in section 6.1.1
     - subfolder "appendix_code": produces results in the section "Efficiency of the averaged likelihood approach" in appendix
