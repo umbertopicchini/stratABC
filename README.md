@@ -17,6 +17,9 @@ Here we describe the content of each folder:
     - subfolder "loglikelihood estimation": produces results for section 6.1.1
     - subfolder "appendix_code": produces results for the appendix section "Efficiency of the averaged likelihood approach" 
 - "gk"
-    - subfolder "exactMCMC_R" performs exact Bayesian inference (not ABC) using the R package "gk"
+    - subfolder "exactMCMC_R" performs exact Bayesian inference (not ABC) using the R package "gk".
+    - subfolder "stratifiedABC" performs a few iterations with rABC-MCMC and then a few more using rsABC-MCMC follow.
+    - subfolder "exchanged-likelihoods" performs a few iterations with rABC-MCMC and then a few more using xrsABC-MCMC follow.
+    - subfolder "ABCmultiplesamples" performs pmABC-MCMC.
     
 
