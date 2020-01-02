@@ -16,3 +16,7 @@ Here we describe the content of each folder:
     - demo_gauss_two_independent_sample: runs pmABC-MCMC with M=2
     - subfolder "loglikelihood estimation": produces results for section 6.1.1
     - subfolder "appendix_code": produces results for the appendix section "Efficiency of the averaged likelihood approach" 
+- "gk"
+    - subfolder "exactMCMC_R" performs exact Bayesian inference (not ABC) using the R package "gk"
+    
+
