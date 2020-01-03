@@ -4,7 +4,7 @@ U. Picchini and R.G. Everitt "Stratified sampling and bootstrapping for approxim
 
 The following folders are included:
 - "gauss", illustrating the first case study in arXiv:1905.07976, MATLAB code.
-- "gk", illustrating the second case study in arXiv:1905.07976, MATLAB code.
+- "gk", illustrating the second case study in arXiv:1905.07976, MATLAB and R code.
 - "lotka-volterra", illustrating the fourth case study in arXiv:1905.07976, MATLAB code.
 
 Here we describe the content of each folder:
