@@ -21,5 +21,6 @@ Here we describe the content of each folder:
     - subfolder "stratifiedABC" performs a few iterations with rABC-MCMC and then a few more using rsABC-MCMC follow.
     - subfolder "exchanged-likelihoods" performs a few iterations with rABC-MCMC and then a few more using xrsABC-MCMC follow.
     - subfolder "ABCmultiplesamples" performs pmABC-MCMC.
+- "lotka-volterra" **IS FORTHCOMING**
     
 
