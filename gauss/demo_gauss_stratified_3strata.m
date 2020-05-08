@@ -172,7 +172,7 @@ for mcmc_iter = 2:R_mcmc
     if log(rand) < loglike-loglike_old + logprior - logprior_old
          MCMC(mcmc_iter) = mu;
          accept=accept+1;
-         standard_abcmcmc_loglike = [standard_abcmcmc_loglike;-log(numresample2)+logsumexp(-distance1.^2/(2*delta^2))+logsumexp(-distance2.^2/(2*delta^2))+logsumexp(-distance3.^2/(2*delta^2))];
+         standard_abcmcmc_loglike = [standard_abcmcmc_loglike;-log(numresample2)+logsumexp([logsumexp(-distance1.^2/(2*delta^2)), logsumexp(-distance2.^2/(2*delta^2)), logsumexp(-distance3.^2/(2*delta^2))]) ];
          rsabcmcmc_loglike = [rsabcmcmc_loglike;loglike];
          mu_old = mu;
          loglike_old = loglike;
