@@ -1,5 +1,5 @@
-# stratABC-MCMC
-ABC-MCMC using stratified Monte Carlo and bootstrapping: supporting code for the paper by 
+# stratABC
+ABC using stratified Monte Carlo and bootstrapping: supporting code for the paper by 
 U. Picchini and R.G. Everitt "Stratified sampling and bootstrapping for approximate Bayesian computation", arXiv:1905.07976
 
 The following folders are included:
