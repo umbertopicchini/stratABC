@@ -27,4 +27,6 @@ Here we describe the content of each folder:
     - subfolder "rsABC-MCMC_3strata" runs rsABC-MCMC using three strata.
     - subfolder "several-bootstrap-comparisons" contains results as given in Supplementary Material, comparing the performance of several bootstrap strategies.
     - subfolder "computationally-intensive-model": contains runs of pmABCMCMC and rsABCMCMC for the expensive case study considered in Supplementary Material. 
-
+- "supernova"
+    - subfolder "importancesampling" runs importance sampling ABC with and without stratification. Different RUN files are provided ("astro_run_stratified" uses stratified Monte Carlo and astro_run_nostratification_M_1.m  and astro_run_nostratification_M_2.m do not use stratified MC).
+    - subfolder "rejectionABC" uses the simple ABC-rejection algorithm, with and without stratification. Different RUN files are provided, same as for the "importancesampling" subfolder
